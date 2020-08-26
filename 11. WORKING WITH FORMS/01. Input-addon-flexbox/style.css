@@ -1,0 +1,99 @@
+
+*, *:before, *:after {
+    margin: 0;padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Font Awesome 5 Free', sans-serif;
+}
+
+body, table, input, select, option, textarea {
+    font: inherit;
+}
+
+body {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 30rem;
+    margin: 2rem 4rem;
+}
+
+form legend,
+form fieldset {
+    border: 1px solid #757575;
+    border-radius: 0.3rem;
+    background-color: #F9F9F9;
+    box-shadow: 0 0 10px 5px rgba(117, 117, 117, 0.1);
+}
+
+form legend {
+    display: inline-block;
+    width: 35%;
+    padding: 0.5rem 1rem;
+}
+
+form fieldset {
+    padding: 2rem 0 2rem 0;
+}
+
+form fieldset p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+
+
+.field-icon label{
+    flex: 0 0 100%;
+    font-weight: bold;
+}
+
+
+.field-icon input,
+.field-icon i {
+    margin-bottom: 2rem;
+    border: 1px solid #DDDDDD;
+}
+
+.field-icon i {
+    flex: 0 0 10%;
+    order:1;
+    background-color: #fff;
+    border-right: none;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field-icon input {
+    flex: 0 0 90%;
+    order:2;
+    padding: 0.5rem 0;
+    border-left: none;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.field-icon input:hover,
+.field-icon input:hover+i{
+    border-color: #9FD9AC;
+    color: #009B21;
+}
+
+
+.button {
+    justify-content: flex-start;
+}
+
+.button input {
+    padding: 0 1rem;
+    background-color: #F2F2F2;
+    border: 1px solid #AEAEAE;
+}

@@ -1,0 +1,11 @@
+html {
+    font: normal 16px/1.5  Helvetica, sans-serif;
+}
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+body {
+    padding: 4em;
+}

@@ -1,0 +1,77 @@
+*, *:before, *:after {
+    margin: 0;padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body{
+    max-width: 60rem;
+    height: 100vh;
+    margin:0 auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.layout-name {
+    width: 100%;
+}
+
+.card{
+    flex: 0 0 30%;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.card-image:before,
+.card-image:after {
+    display: block;
+    content: "";
+}
+
+.card-image:before {
+    padding-top: 56.25%;
+}
+
+.card-image:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #000;
+    border-radius: 0.3em;
+}
+
+.card-title,
+.card-content,
+.card-footer {
+    padding: 1rem;
+}
+
+.card img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,40 @@
+@import url('reset.css');
+@import url('box-sizing.css');
+@import url('typography.css');
+@import url('layout.css');
+@import url('navigation.css');
+@import url('post.css');
+@import url('sidebar.css');
+
+.site-header {
+    border-bottom: 4px solid #333;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.site-header h1 {
+    position: relative;
+    top: 0; left: 0;
+    line-height: 1
+}
+
+.site-header form {
+    position: absolute;
+    top: 0; right: 0;
+    padding-top: 0.5rem;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.site-footer {
+    border-top: 4px solid #333;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+
+

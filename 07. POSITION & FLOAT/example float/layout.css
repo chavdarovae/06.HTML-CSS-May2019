@@ -1,0 +1,28 @@
+body {
+    padding: 2rem;
+}
+
+.site {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.site-content:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.main-content {
+    /* border: 4px solid #00F; */
+    width: 70%;
+    padding-right: 1rem;
+    float: left;
+}
+
+.main-sidebar {
+    /* border: 4px solid #F00; */
+    width: 30%;
+    padding-left: 1rem;
+    float: right;
+}

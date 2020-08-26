@@ -1,0 +1,11 @@
+.main-sidebar ul {
+    padding: 0 0 0 1rem;
+}
+
+.main-sidebar section {
+    padding-bottom: 1.51rem;
+}
+
+.main-sidebar input {
+    width:50%;
+}

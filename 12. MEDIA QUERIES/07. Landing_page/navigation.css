@@ -1,0 +1,118 @@
+/* site-navigation position */
+.site-nav,
+.menu-toggle-button {
+    margin-left: auto;
+}
+
+.site-nav ul li {
+    list-style: none outside;
+}
+    
+.site-nav ul {
+    display: flex;
+}
+
+.site-nav ul li a {
+    display: block;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Chilanka', cursive;
+}
+
+
+/* mobile version logic */
+
+.menu-toggle {
+    display: none;
+    pointer-events: none;
+    position: absolute;
+}
+
+.menu-toggle-button {
+    color: #8E007D;
+    font-size: 2rem;
+}
+
+.menu-toggle-button:hover i {
+    color: #000;
+}
+
+
+/* MEDIA QUERIES */
+
+/* tablets*/
+@media (max-width: 800px) {
+    
+    .site-nav,
+    .menu-toggle-button .close {
+        display: none;
+    }
+
+    .menu-toggle:checked + .site-header .close,
+    .menu-toggle:checked + .site-header .site-nav {
+        display: block;
+    }
+
+    .menu-toggle:checked + .site-header .open{
+        display: none;
+    }
+
+    .site {
+        position: relative;
+    }
+
+    .menu-toggle:checked + .site-header {
+        position: absolute;
+        top: 0; left: 0;
+        flex-wrap: wrap;
+        width: 100%;
+        background:  rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 100vh rgba(255, 255, 255, 0.5);
+        z-index: 1;
+    }
+
+    .site-nav {
+        flex: 1 0 100%;
+        margin-top: 2rem;
+    }
+
+    .site-nav ul {
+        display: block;
+    }
+
+    .site-nav ul li a {
+        width: 90%;
+        margin: 0.2em auto;
+        color: #fff;
+        text-align: center;
+        background-color: #8E007D;
+        border-radius: 0.3em;
+        padding: 0.5rem 0;
+    }
+
+    .site-nav ul li a:hover,
+    .site-nav ul li:hover a {
+        padding: 0.7rem 0;
+    }
+ 
+}
+
+/* laptop*/
+@media (min-width: 800px) {
+    .menu-toggle-button{
+        display: none;
+    }
+    
+    .site-nav > ul > li + li {
+        margin-left: 2em;
+    }
+    
+    .site-nav ul li:hover a,
+    .site-nav ul li a:hover {
+        color: #8E007D;
+        text-decoration: underline;
+    }
+
+    
+}

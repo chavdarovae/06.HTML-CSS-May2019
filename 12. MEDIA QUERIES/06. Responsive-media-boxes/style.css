@@ -1,0 +1,108 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+@media (max-width: 425px){
+    html {
+        font: 12px/1.5 Helvetica, sans-serif;
+    }
+}
+
+@media (min-width: 425px){
+    html {
+        font: 14px/1.5 Helvetica, sans-serif;
+    }
+}
+
+@media (min-width: 800px){
+    html {
+        font: 16px/1.5 Helvetica, sans-serif;
+    }
+}
+
+@media (min-width: 1200px){
+    html {
+        font: 18px/1.5 Helvetica, sans-serif;
+    }
+}
+
+
+
+body, textarea, table, input, select {
+    font: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font: 900 1em/1.2 Georgia, serif;
+    padding-bottom: 1em;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 2rem;
+}
+
+.site {
+    width: 80%;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 20rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-media {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-media:before {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+}
+
+.card-media img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content h1 {
+    letter-spacing: 2px;
+}
+
+.card-content button {
+    flex: 0 0 auto;
+    color: #fff;
+    padding: 0.5em 1em;
+    background-color: rgb(0, 153, 0);
+    border: 1px solid rgb(0, 153, 0);
+    border-radius: 0.3em;
+    align-self: flex-end;
+}
+
+.card button:hover {
+    background-color: #000;
+}

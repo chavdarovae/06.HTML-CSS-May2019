@@ -1,0 +1,60 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font: inherit;
+}
+
+html {
+    font: 16px/1.5 sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    border-bottom: 2px solid #000;
+    padding: 3rem 0 1rem 0;
+    margin-bottom: 1.5rem;
+}
+
+header p, header ul {
+    flex: 1 0 auto;
+}
+
+header p {
+    font: bold 32px/1 sans-serif;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    list-style: none outside;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    display: block;
+    padding-left: 1.5rem;
+}
+
+/* MAIN */
+main h1 {
+    font: 20px/1 Georgia, serif;
+    padding-bottom: 1rem;    
+}
+
+main p {
+    padding-bottom: 1rem;
+}

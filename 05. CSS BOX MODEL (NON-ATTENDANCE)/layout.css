@@ -1,0 +1,29 @@
+body {
+    padding: 2rem;
+}
+
+.site {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.site-content {
+    /* border: 4px solid #000; */
+}
+
+.main-sidebar, .main-content {
+    display: inline-block;
+}
+
+.main-content {
+    /* border: 4px solid #00F; */
+    width: 70%;
+    padding-right: 1rem;
+}
+
+.main-sidebar {
+    /* border: 4px solid #F00; */
+    width: 29%;
+    vertical-align: top;
+    padding-left: 1rem;
+}

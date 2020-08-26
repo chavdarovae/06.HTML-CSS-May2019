@@ -1,0 +1,66 @@
+@import url('reset.css');
+@import url('typography.css');
+
+body {
+    background-color: #EEEEEE;
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #CECECE;
+    font-weight: bold;
+    text-align: left;
+}
+
+thead tr{
+    background-color: #333333;
+    color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+    thead tr {
+        display: none;
+    }
+
+    tbody tr td {
+      display: block;
+      font-weight: normal;
+    }
+
+    tbody tr td:before {
+        display: inline-block;
+        padding-right: 0.5em;
+        font-weight: bold;
+    }
+
+    tbody tr td:nth-child(1):before {
+        content: "First Name";
+    }
+
+    tbody tr td:nth-child(2):before {
+        content: "Last Name";
+    }
+
+    tbody tr td:nth-child(3):before {
+        content: "Job Title";
+    }
+}
+
+@media (min-width: 600px) {
+
+}

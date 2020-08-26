@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+    color: rgb(51, 51, 51)
+}
+
+body, select, option, input, textarea, table {
+    font: inherit;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    padding: 0.5rem 0;
+}
+
+h1 {
+    font-size: 2.0rem
+}
+
+h2 {
+    font-size: 1.8rem
+}
+
+h3 {
+    font-size: 1.6rem
+}
+
+h4 {
+    font-size: 1.4rem
+}
+
+h5 {
+    font-size: 1.2rem
+}
+
+h6 {
+    font-size: 1.0rem
+}
+
+p{ 
+    padding-bottom: 0.5rem;
+}
+
+ul, ol {
+    padding: 0.5rem 0 1rem 2rem;
+    padding-top: 0.5rem;
+    list-style: inside;
+}
+
+body {
+    padding: 4rem;
+    background-color: rgb(238, 238, 238);
+}
+
+.site {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.image {
+    overflow: hidden;
+    width:70%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+img {
+    width:100%;
+    height: auto;
+}
+
+.main-content, .main-sidebar {
+    display: inline-block;
+}
+
+.main-content {
+    width: 60%;
+    padding-right: 0.5rem;
+}
+
+.main-sidebar {
+    width: 25%;
+    vertical-align: top;
+    padding-left: 0.5rem;
+}
+
+.post header {
+    padding-bottom: 2rem;
+}

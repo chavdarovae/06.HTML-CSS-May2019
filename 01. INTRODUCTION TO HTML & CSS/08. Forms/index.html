@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <p>
+                <legend>Customer Details</legend>
+                <label for="first-name">First Name </label>
+                <input type="text" name="first-name" id="first-name" size="20" tabindex="1" placeholder="George"
+                    autofocus>
+            </p>
+            <p>
+                <label for="last-name">Last Name </label>
+                <input type="text" id="last-name" size="20" tabindex="2" placeholder="Devis">
+            </p>
+            <p>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" tabindex="3">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" tabindex="4">
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other" tabindex="5">
+            </p>
+            <p>
+                <label for="preffered-method">Preffered contact method:</label>
+                <label for="email-method">Email</label>
+                <input type="radio" name="preffered-method" id="email-method" tabindex="6">
+                <label for="phone-method">Phone</label>
+                <input type="radio" name="preffered-method" id="phone-method" tabindex="7">
+            </p>
+            <p>
+                <label for="email">Email </label>
+                <input type="email" name="email" id="email" size="20" tabindex="8" placeholder="your@email.com">
+            </p>
+            <p>
+                <label for="phone">Phone </label>
+                <input type="text" name="phone" id="phone" size="20" tabindex="9" placeholder="+359885236225">
+            </p>
+            <p>
+                <label for="town">Town </label>
+                <select name="town" id="town" tabindex="10">
+                    <option value="volvo">Varna</option>
+                    <option value="volvo">Plovdiv</option>
+                    <option value="volvo">Burgas</option>
+                    <option value="volvo">Sofia</option>
+                    <option value="volvo">Pleven</option>
+                </select>
+            </p>
+            <p>
+                <label for="age">Age </label>
+                <input type="number" name="age" id="age" min="0" max="150" tabindex="11">
+            </p>
+            <p>
+                <label for="programmingLanguage">Programming language </label>
+                <select name="programmingLanguage" id="programmingLanguage" tabindex="12">
+                    <option disabled selected value>
+                    <option value="volvo">Java</option>
+                    <option value="volvo">PHP</option>
+                    <option value="volvo">C#</option>
+                    <option value="volvo">JavaScript</option>
+                    <option value="volvo">Python</option>
+                    <option value="volvo">Ruby</option>
+                    <option value="volvo">Other</option>
+                </select>
+            </p>
+            <p>
+                <textarea name="moreInfoTextArea" id="moreInfoTextArea" rows="5" cols="25" tabindex="13"
+                    placeholder="More information..."></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="agreeTermsCheckBox" id="agreeTermsCheckBox" tabindex="14">
+                <label for="agreeTermsCheckBox">I agree the Terms and Conditions</label>
+            </p>
+            <input type="submit" id="sendBtn" value="Send" tabindex="15">
+        </fieldset>
+    </form>
+</body>
+
+</html>

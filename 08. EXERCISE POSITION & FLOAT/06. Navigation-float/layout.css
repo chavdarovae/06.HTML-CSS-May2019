@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.site-header p {
+    float:left;
+}
+
+
+.site-header nav {
+    float:right;
+}
+
+.site {
+    align-content: top;
+}
+
+.site-content {
+    width: 70%;
+    float: left;
+    padding-right: 1em;
+}
+
+.site-sidemenu {
+    width: 30%;
+    float: right;
+    padding-left: 1em;
+}

@@ -1,0 +1,12 @@
+html {
+    font: normal 16px/1.5;
+}
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+body {
+    background:rgb(51, 102, 153);
+    color: white;
+}

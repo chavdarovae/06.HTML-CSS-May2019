@@ -1,0 +1,29 @@
+article.post {
+    padding-bottom: 2rem;
+}
+
+article.post img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+article.post section.image {
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    padding: 0.5em;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+article.post section.image.portrait {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+article.post section.image.landscape {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}

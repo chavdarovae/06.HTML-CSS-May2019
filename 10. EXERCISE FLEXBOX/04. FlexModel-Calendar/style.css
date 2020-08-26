@@ -1,0 +1,59 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1 Helvetica, sans-serif;
+}
+
+body {
+    max-width: 70rem;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.container {
+    max-width: 65vw;
+    height: 35rem;
+    display: flex;
+}
+
+.week, .notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container span {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 1rem;
+}
+
+.week span {
+    flex: 1 0 20%;
+    height: 25%;
+}
+
+.week span:first-child, 
+.week span:nth-child(7) {
+    flex: 1 0 100%;
+}
+
+.week span:last-child, 
+.week span:nth-child(8) {
+    flex: 1 0 50%;
+}
+
+.notes {
+    flex: 0 0 20%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notes span {
+    flex: 1 0 auto;
+}

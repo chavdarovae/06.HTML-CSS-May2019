@@ -1,0 +1,116 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css');
+
+*, *:before, *:after {
+    margin: 0;padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/0 Verdana, sans-serif;
+}
+
+body, table, input, select, option, textarea {
+    font: inherit;
+}
+
+.container {
+    max-width: 65rem;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 40rem;
+    background-color: #ADD8E6;
+    border-radius: 0.3rem;
+}
+
+form fieldset {
+    width: 100%;
+    border: none;
+}
+
+form legend {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+form legend,
+.submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+form p:not([class="submit-btn"]),
+form div {
+    padding: 0 11rem 1rem 2rem;
+    display: flex;
+    flex-wrap: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+*[class^="label-"]:not(*[class*="checkbox"])>label {
+    flex: 0 0 30%;
+}
+
+*[class^="label-"]:not(*[class*="checkbox"])>*:not(label) {
+    flex: 0 0 70%;
+    padding: 0.5rem;
+}
+
+.label-radio ul {
+    display: flex;
+}
+
+.label-radio li {
+    list-style: none outside;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.label-radio li label {
+    order:2;
+    padding: 0 0.3rem;
+}
+
+.label-radio li input {
+    order:1;
+}
+
+.label-textarea label{
+    align-self: flex-start;
+}
+
+.label-checkbox {
+    margin: 1rem 0 0rem 0;
+}
+
+.label-checkbox label {
+    order:2;
+    padding-left: 0.5rem;
+}
+
+.label-checkbox input {
+    order:1;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn input {
+    background-color: #0E4565;
+    border: 1px solid #0E4565;
+    border-radius: 0.3rem;
+    color: #fff;
+    padding: 1.5rem 3rem;
+}

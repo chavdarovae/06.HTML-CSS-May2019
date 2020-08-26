@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font: normal 16px/1.5 Helvetica, sans-serif;
+}
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+body {
+    padding: 4em;
+}
+
+article {
+    background-color: rgb(51, 102, 153);
+    color: white;
+    padding: 3em 1.8em 3em 1.8em;
+    border-radius: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: normal 2em/1.5 Georgia, serif;
+    margin-bottom: 0.5em;  
+}

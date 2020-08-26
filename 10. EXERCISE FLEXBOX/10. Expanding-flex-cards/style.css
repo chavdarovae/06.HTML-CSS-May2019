@@ -1,0 +1,53 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 70rem;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.image {
+    margin: 0 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image:not(.full-width) {
+    flex: 0 0 8rem;
+}
+
+.full-width {
+    flex: 1 0 30rem;
+    background-color: #000;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i&display=swap');
+
+*,*:after,*:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Ubuntu', sans-serif;
+}
+
+/* phones*/
+@media (max-width: 500px) {
+    html { font-size: 12px; }
+}
+/* tablets*/
+@media (min-width: 500px) {
+    html { font-size: 14px; }
+}
+
+@media (min-width: 600px) {
+    html { font-size: 16px; }
+}
+/* laptops*/
+@media (min-width: 800px) {
+    html { font-size: 18px; }
+}
+/* phones*/
+@media (min-width: 1300px) {
+    html { font-size: 21px; }
+}
+
+@media (min-width: 1800px) {
+    html { font-size: 23px; }
+}
+
+
+body {
+    background-color: #FFFFFF;
+}
+
+.wrapper {
+    max-width: 65rem;
+    margin: 2rem auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: #fff;
+}
+
+.wrapper:before,
+.wrapper:after  {
+    display: block;
+    content: "";
+}
+
+.wrapper:before {
+    background-image: url('./00. Resources/images/image.jpg');
+    background-size: 100%;
+    position: absolute;
+    top: 0; left: 0;bottom: 0;right: 0;
+    z-index: -2;
+}
+
+.wrapper:after  {
+    background-color: rgba(43, 34, 129, 0.7);
+    position: absolute;
+    top: 0; left: 0;bottom: 0;right: 0;
+    z-index: -1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0; right: 0;
+}
+
+.close-btn i {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+
+.site-content {
+    flex: 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.site-content i {
+    font-size: 2.5rem;
+    color: #FF7E00;
+}
+
+.site-content p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem 0 0.5rem 0;
+}

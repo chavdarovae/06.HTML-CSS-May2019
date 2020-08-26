@@ -1,0 +1,58 @@
+html {
+    font:  normal 16px/1.5 "PT Sans",Verdana, sans-serif;
+}
+
+@media (max-width: 425px) {
+    html { font-size: 12px; }
+}
+
+@media (min-width: 425px) {
+    html { font-size: 14px; }
+}
+
+@media (min-width: 800px) {
+    html { font-size: 16px; }
+}
+
+@media (min-width: 1500px) {
+    html { font-size: 18px; }
+}
+
+
+body, table, form, input, select, option, textarea {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    opacity: 0.5;
+    padding: 1em;
+    border-left: 2px solid #555;
+    margin: 1em;
+} 
+
+blockquote .author {
+    font-style: italic;
+    text-align: right;
+    opacity: 0.5;
+}

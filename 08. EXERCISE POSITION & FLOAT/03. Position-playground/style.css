@@ -1,0 +1,71 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.viewport {
+    height: 50%;
+    position: relative;
+}
+
+.viewport:first-child {
+    background-image: linear-gradient(to right, #005E9D, #00D0A7);
+}
+
+.viewport:nth-child(2) {
+    background-image: linear-gradient(to right, #B92675, #E27E00);
+}
+
+.card {
+    display: block;
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.landscape:before {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+}
+
+.portrait {
+    height: 90%;
+}
+
+.card img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.landscape img {
+    width: 100%;
+    height: auto;
+}
+
+.portrait img {
+    height: 100%;
+    width: auto;
+}
+
+.card i {
+    font-size: 0.8rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 0.2rem 0.2rem 0;
+    z-index: 200;
+}

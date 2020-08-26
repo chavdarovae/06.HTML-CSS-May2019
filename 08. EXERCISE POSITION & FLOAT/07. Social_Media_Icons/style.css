@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 1rem 0 0 1.5rem;
+}
+
+li {
+    display: inline-block;
+    list-style: none outside;
+    margin-right: 1rem;
+}
+
+a {
+    display: block;
+    background-color: #EEEEEE;
+    padding: 0.8rem;
+    border-radius: 50%;
+    color: #000;
+}
+
+a [class*="facebook"]:hover {
+    color: #2B5A9D ;
+}
+
+a [class*="twitter"]:hover {
+    color: #00AFEE ;
+}
+a [class*="google"]:hover {
+    color: #F43D25 ;
+}
+
+a [class*="linked"]:hover {
+    color: #007DB7 ;
+}
+
+a [class*="instagram"]:hover {
+    color: #4282A5 ;
+}

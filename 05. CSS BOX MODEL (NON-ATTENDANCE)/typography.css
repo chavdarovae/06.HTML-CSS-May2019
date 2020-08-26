@@ -1,0 +1,40 @@
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, table, form, input, select, option, textarea {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2em;
+}
+
+ul ul, ol ol, ol ul, ul ol {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ol ol li {
+    list-style-type: lower-roman;
+}
+
+blockquote {
+    padding: 1rem;
+} 
+
+blockquote .author {
+    font-style: italic;
+    text-align: right;
+    opacity: 0.5;
+}
+
+blockquote .author:before {
+    display: inline-block;
+    content: "\2014";
+    padding-right: 0.5em;
+}

@@ -1,0 +1,119 @@
+*, *:before, *:after {
+    margin: 0;padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Font Awesome 5 Free', sans-serif;
+}
+
+body, table, input, select, option, textarea {
+    font: inherit;
+}
+
+body {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 35rem;
+    margin: 2rem;
+}
+
+form input {
+    outline: none;
+}
+
+form input:focus,
+form .block:focus-within {
+    background-color: #fff;
+    border-color: #FF0202;
+    color: #FF0202;
+}
+
+form legend,
+form fieldset {
+    border: 1px solid #757575;
+    border-radius: 0.3rem;
+    background-color: #F9F9F9;
+    box-shadow: 0 0 10px 5px rgba(117, 117, 117, 0.1);
+}
+
+form legend {
+    display: inline-block;
+    width: 35%;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+form fieldset {
+    padding: 1rem 0 0 0;
+}
+
+form fieldset>*:not(legend) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.field-icon label {
+    flex: 0 0 auto;
+    font-weight: 900;
+    padding-right: 0.5rem;
+}
+
+.field-icon.block {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: none;
+    border: 2px solid #ddd;
+    border-radius: 0.3rem;
+}
+
+.block i {
+    flex: 0 0 10%;
+    order:1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.block input {
+    flex: 0 0 90%;
+    order:2;
+    padding: 0.5rem 0;
+    border: none;
+}
+
+.block:hover,
+.block:hover>* {
+    border-color: #9FD9AC;
+    color: #009B21;
+}
+
+
+.button {
+    justify-content: flex-start;
+}
+
+.button input {
+    font-weight: 500;
+    padding: 0.3rem 1rem;
+    background-color: #2D2D2D;
+    border: 2px solid #2D2D2D;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+
+.button input:hover {
+    background-color: #fff;
+    border: 2px solid #2D2D2D;
+    color: #2D2D2D
+}

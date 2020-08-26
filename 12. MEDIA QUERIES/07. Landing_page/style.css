@@ -1,0 +1,108 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('buttons.css');
+@import url('card.css');
+@import url('layout.css');
+@import url('navigation.css');
+
+/* general styles */
+.site a {
+    text-decoration: none;
+    color: #369;
+}
+
+.site a:hover {
+    text-decoration: underline;
+    color: #8E007D;
+}
+
+.site img {
+    width: 100%;
+    height: auto;
+}
+
+.cleaner:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/* site title styling */
+.site-title a {
+    text-transform: capitalize;
+    color: #8E007D; 
+    font-family: 'Sanchez', serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.site-title span {
+    display: block;
+    color: #000; 
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    padding-top: 0.2em;
+}
+
+
+/* site content genral styling */
+.main-section h1 {
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.team h1:after,
+.newsletter h1:after,
+.testimonials h1:after {
+    content:''; 
+    width: 3em; 
+    height:4px; 
+    background:#000; 
+    position: absolute; 
+    top: 100%; left: 50%;
+    transform: translate(-50%, 0)
+}
+
+/* ad section  styling */
+.ad i{
+    font-size: 10rem;
+    margin: 3rem;
+}
+
+.ad h1 {
+    text-align: left;
+}
+
+.ad a {
+    border: 2px solid #000;
+    padding: 0.2em 1em;
+    box-shadow: inset 0px 0px 5px 1px rgba(94,84,94,1);
+}
+
+/* newsletter section  styling  */
+.newsletter h1 {
+    color: #fff;
+}
+
+.newsletter-container {
+    background-color: #713179;
+}
+
+/* testimonial section  styling  */
+.testimonials-container {
+    background: repeating-linear-gradient(-45deg,#FFFFFF,#FFFFFF 20px,#FCFCFC 20px,#FCFCFC 40px);
+}
+
+/* footer styling */
+
+.site-footer ul li {
+    list-style: none outside;
+}
+
+.footer-container {
+    background: #fff;
+}
+

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, option, select, textarea, input {
+    font: inherit;
+}
+
+body {
+    max-width: 70rem;
+    padding: 2rem;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+p, ul, ol {
+    padding-bottom: 0.5em;
+}
+
+ul, ol {
+    padding-left: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+article img {
+    max-width: 65%;
+    height: auto;
+    margin: 1em 0;
+}

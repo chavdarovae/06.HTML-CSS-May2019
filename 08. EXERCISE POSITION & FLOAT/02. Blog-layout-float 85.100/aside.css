@@ -1,0 +1,16 @@
+.site-sidemenu section {
+    padding-bottom: 1rem;
+}
+
+.site-sidemenu ul {
+    padding-left: 1.5em;
+}
+
+.site-sidemenu li {
+    list-style-position: inside;
+}
+
+.site-sidemenu a {
+    text-decoration:none;
+    color: rgb(5, 199, 5);
+}

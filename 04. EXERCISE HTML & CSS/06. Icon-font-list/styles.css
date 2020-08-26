@@ -1,0 +1,27 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: normal 16px/1.5 sans-serif
+}
+
+body {
+    max-width: 70rem;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.icons {
+    padding-bottom: 2em;
+    list-style-type: none;
+}
+
+.icons:first-child {
+    padding-top: 2em;
+}
+

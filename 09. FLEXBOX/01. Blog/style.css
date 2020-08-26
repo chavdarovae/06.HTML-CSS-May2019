@@ -1,0 +1,104 @@
+@import url('typography.css');
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0.5rem;
+    background-color: #eeeeee;
+}
+
+.site {
+    max-width: 60rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-header, .site-footer {
+    background-color: #000;
+    color: white;
+    display: flex;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.site-header h1 {
+    font-size: 3rem;
+    line-height: 1;
+    padding: 1rem 1rem;
+}
+
+.site-header h1 a {
+    text-transform: uppercase;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.site-header nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.site-header nav ul {
+    display: flex;
+    padding: 0;
+}
+
+.site-header nav li {
+    list-style: none outside;
+    display: flex;
+}
+
+.site-header nav a {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.site-header nav a:hover {
+    background-color: #990000;
+}
+
+.site-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-content main {
+    flex: 1 1 25rem;
+    padding: 1rem;
+    background-color: #999;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.site-content aside {
+    flex: 1 1 10rem;
+    padding: 1rem;
+    background-color: #aaa;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.site-footer {
+    margin-top: auto;
+    margin-bottom: 0.1rem;
+}
+
+.site-footer p {
+    padding: 1rem;
+}

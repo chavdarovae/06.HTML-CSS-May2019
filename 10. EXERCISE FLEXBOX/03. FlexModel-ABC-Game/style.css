@@ -1,0 +1,85 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 20px/1 Helvetica, sans-serif;
+}
+
+body {
+    max-width: 40rem;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.container {
+    max-width: 15vw;
+    height: 35rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.container span {
+    border: 1px solid #000;
+    width: 80%;
+    height: 11%;
+    margin: 0 0.5rem 0.5rem 0;
+    text-align: center;
+    padding: 1.45rem 0;
+}
+
+
+.S{
+    order: 0;
+}
+
+.e{
+    order: 1;
+}
+
+.m{
+    order: 2;
+}
+
+.a{
+    order: 3;
+}
+
+.n{
+    order: 4;
+}
+
+.t{
+    order: 5;
+}
+
+.i{
+    order: 6;
+}
+
+.c{
+    order: 7;
+}
+
+.H{
+    order: 8;
+}
+
+.T{
+    order: 9;
+}
+
+.M{
+    order: 10;
+}
+
+.L{
+    order: 11;
+}

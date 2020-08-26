@@ -1,0 +1,48 @@
+html {
+    font: normal 16px/1.5 'Raleway', sans-serif;;
+}
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 1.00em;
+    line-height: 1.2;
+    padding-top: 1.00em;
+    padding-bottom: 1.00em;
+}
+
+h1 { font-size: 2.10em; }
+h2 { font-size: 1.80em; }
+h3 { font-size: 1.60em; }
+h4 { font-size: 1.40em; }
+h5 { font-size: 1.20em; }
+h6 { font-size: 1.00em; }
+
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul {
+    padding-left:2em;
+    list-style: square outside;
+}
+
+ul>ul {
+    list-style: disc outside;
+
+}
+
+ul>ul>ul {
+    list-style: circle outside;
+
+}
+
+ol {
+    padding-left:2em;
+    list-style: numbers outside;
+}

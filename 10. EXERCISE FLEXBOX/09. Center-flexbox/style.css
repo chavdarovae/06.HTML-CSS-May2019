@@ -1,0 +1,32 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 60rem;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    flex: 0  0 40%;
+    padding: 1rem;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1)
+}
+
+.card  h2,
+.card  p {
+    margin-bottom: 0.5rem;
+}
+
+.card  p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif
+}

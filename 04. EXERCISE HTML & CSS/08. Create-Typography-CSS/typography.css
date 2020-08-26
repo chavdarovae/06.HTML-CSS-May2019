@@ -1,0 +1,102 @@
+html {
+    font: normal 16px/1.5 Helvetica, sans-serif;
+}
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    line-height: 1.1;
+    padding-bottom: 1em;
+}
+
+h1 { font-size: 2.10em; }
+h2 { font-size: 1.80em; }
+h3 { font-size: 1.60em; }
+h4 { font-size: 1.40em; }
+h5 { font-size: 1.20em; }
+h6 { font-size: 1.00em; }
+
+
+p, ul, ol, blockquote {
+    padding-bottom: 1.5em;
+}
+
+ul {
+    padding-left:2em;
+    list-style: square outside;
+}
+
+ul>ul {
+    list-style: disc outside;
+
+}
+
+ul>ul>ul {
+    list-style: circle outside;
+
+}
+
+ol {
+    padding-left:2em;
+    list-style: numbers outside;
+}
+
+ol>ol {
+    padding-left:2em;
+    list-style: lower-latin outside;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 1.5em;
+
+    border-collapse: collapse;
+    table-layout : fixed;
+}
+
+tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+th {
+    background-color:#CCCCCC;
+    text-align: left;
+}
+
+td, th {
+    border: 1px solid #CCCCCC;
+    padding-left: 0.5em;
+}
+
+blockquote {
+    margin-left: 2em;
+    padding-left: 2em;
+    border: solid rgb(221,221,221);
+    border-width: 0px 0px 0px 4px; 
+
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 1.5em;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+    text-align: right;
+}
+
+hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px inset;
+  }
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}

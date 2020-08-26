@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funny Login Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet"  type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form action="#">
+            <fieldset>
+                <legend>Customer Details</legend>
+                <p class="label-field">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="George">
+                </p>
+
+                <p class="label-field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Davis">
+                </p>
+
+                <div class="label-radio">
+                    <label for="gender">Gender</label>
+                    <ul>
+                        <li>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="male">
+                        </li>
+                        <li>
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="label-field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="your@email.com">
+                </p>
+
+                <p class="label-field">
+                    <label for="phone">Phone</label>
+                    <input type="number" name="phone" id="phone" placeholder="004915204914944">
+                </p>
+
+                <p class="label-select">
+                    <label for="town">Town</label>
+                    <select name="town" id="town">
+                        <option value="Varna">Varna</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Plovdiv">Plovdiv</option>
+                    </select>
+                </p>
+
+                <p class="label-field">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="0" max="150">
+                </p>
+
+                <p class="label-field">
+                    <label for="language">Language</label>
+                    <input type="text" name="language" id="language">
+                </p>
+
+                <p class="label-textarea">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="More information..."></textarea>
+                </p>
+
+                <p class="label-checkbox">
+                    <label for="terms_and_conditions_consent">I agree the Terms and Conditions</label>
+                    <input type="checkbox" name="terms_and_conditions_consent" id="terms_and_conditions_consent">
+                </p>
+
+                <p class="submit-btn">
+                    <input type="button" value="Send" name="send">
+                </p>                
+            </fieldset>
+        </form>
+    </div>
+
+
+</body>
+</html>

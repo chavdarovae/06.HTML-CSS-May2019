@@ -1,0 +1,88 @@
+@import url('reset.css');
+@import url('box-sizing.css');
+@import url('typography.css');
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* LAYOUT */
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.page {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    flex: 0 0 100%;
+    border-bottom: 2px solid #000;
+    margin-bottom: 1rem;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 2rem 0 1rem 0;
+}
+
+main {
+    flex: 1 0 75%;
+    padding-right: 2rem;
+}
+
+aside {
+    flex: 1 0 25%;
+    padding-left: 2rem;
+}
+
+blockquote {
+    width: 50%;
+    float: right;
+}
+
+.image {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #000;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    overflow: hidden;
+    margin: 1rem;
+    float: left;
+}
+
+.image:first-of-type {
+    float: right;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+.cleaner {
+    display:block;
+    content: "";
+    clear: both;
+}
+
+aside ul{
+    padding-left: 3rem;
+}
+
+aside li{
+    color:rgb(0, 153, 0);
+}

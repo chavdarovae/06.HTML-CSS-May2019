@@ -1,0 +1,121 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css');
+
+*, *:before, *:after {
+    margin: 0;padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'Montserrat',  sans-serif;
+}
+
+body, table, input, select, option, textarea {
+    font: inherit;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #ff00ff, #00dde1);
+}
+
+.container {
+    max-width: 65rem;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 30rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form fieldset {
+    width: 80%;
+    border: none;
+}
+
+
+form p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+form p:not([class="quick-signin"])>* {
+    flex: 0 0 100%;
+}
+
+form input,a {
+    padding: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+}
+
+.quick-signin label {
+    flex: 0 0 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+a.btn {
+    text-decoration: none;
+    flex: 1 0 40%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:before {
+    display: inline-block;
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-size:2rem;
+    font-weight: 900;
+    padding-right: 0.5rem;
+}
+
+a.facebook {
+    background-color: #2C5A98;
+    color: #fff;
+}
+
+a.facebook:before {
+    content: "\f57e";
+}
+
+a.google {
+    background-color: #fff;
+    color: #555555;
+}
+
+a.google:before {
+    content: "\f57e";
+}
+
+.quick-signin a + a {
+    margin-left: 1rem;
+}
+
+.label-field input{
+    margin-top: 0.3rem;
+    background-color: #F7F7F7;
+}
+
+form input[name="signin"] {
+    background-color: #333333;
+    color: #fff;
+}
+
